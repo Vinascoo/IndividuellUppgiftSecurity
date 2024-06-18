@@ -54,10 +54,11 @@ Det innebär att metoden inte tar emot några parametrar eller argument när den
 Det som skickas med till metoden mellan paranteserna kallas antingen parametrar eller argument.
 
 ## Fråga 7: Hur ska du skriva för att returnera summan av a och b i denna metod?
-
+```
 public int add(int a, int b){
     return a + b;
 }
+````
 
 ## Fråga 8: Hur ser det ut när man anropar denna metod från en annan metod?
 

@@ -36,15 +36,18 @@ Jag använder en speciell typ av minne (InMemoryUserDetailsManager) för att spa
 Public: Metoden kan användas och anropas från andra klasser.
 Private: Metoden kan bara användas inom samma klass där den är deklarerad.
 
-## Fråga 3: Vad innebär det om det står 'void'? Vad innebär det om det står en typ eller klass?
+# Fråga 3: Vad innebär det om det står 'void'? Vad innebär det om det står en typ eller klass?
 
 Void: Metoden returnerar inget värde.
 Typ eller klass: Metoden returnerar ett värde av den specificerade datatypen eller klassen.
 
-## Fråga 4: Vilken namnkonvention finns för metoder i Java?
+# Fråga 4: Vilken namnkonvention finns för metoder i Java?
 
 Metodnamn i Java börjar vanligtvis med ett verb i små bokstäver, följt av substantiv eller adjektiv. Exempelvis
-``` java calculateTotal(), getUserDetails(). ````
+
+```java 
+calculateTotal(), getUserDetails().
+ ````
 
 ## Fråga 5: Vad innebär det om det inte står något mellan paranteserna?
 

@@ -21,7 +21,7 @@ Hur jag lagrar informationen:
 Jag använder en speciell typ av minne (InMemoryUserDetailsManager) för att spara användarkontot temporärt.
 
 ## Fråga 1: Metod i webbapplikationen
-
+```
  @PostMapping
     public String registerUser(@Valid @ModelAttribute("user") UserApp appUser, BindingResult bindingResult, Model model){
         // Kontrollerar om det finns valideringsfel i formuläret
@@ -30,7 +30,7 @@ Jag använder en speciell typ av minne (InMemoryUserDetailsManager) för att spa
             System.out.println(appUser); // Debugging: Skriver ut användardetaljerna till konsolen
             return "register"; // Returnerar vyn "register" för att korrigera fel
         }
-
+````
 ## Fråga 2: Vad innebär ordet public/private i metodsignaturen?
 
 Public: Metoden kan användas och anropas från andra klasser.
@@ -87,6 +87,3 @@ String text = new String("Hello");
 ## Fråga 11: Namnkonvention i Java för metoder
 I Java brukar man börja metodnamn med ett verb, exempelvis "calculateSomething()" eller "getUserDetails()".
 
-
-<!-- Inkludera den färgade strukturen från colors.md -->
-<object data="colors.md" type="text/html" width="800px" height="600px" style="overflow:auto;border:1px solid #ccc"></object>

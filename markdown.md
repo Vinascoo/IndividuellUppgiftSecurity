@@ -49,11 +49,11 @@ Metodnamn i Java börjar vanligtvis med ett verb i små bokstäver, följt av su
 calculateTotal(), getUserDetails().
  ````
 
-## Fråga 5: Vad innebär det om det inte står något mellan paranteserna?
+# Fråga 5: Vad innebär det om det inte står något mellan paranteserna?
 
 Det innebär att metoden inte tar emot några parametrar eller argument när den anropas.
 
-## Fråga 6: Vad kallas det som skickas med till metoden mellan paranteserna?
+# Fråga 6: Vad kallas det som skickas med till metoden mellan paranteserna?
 
 Det som skickas med till metoden mellan paranteserna kallas antingen parametrar eller argument.
 
@@ -67,7 +67,8 @@ public int add(int a, int b){
 # Fråga 8: Hur ser det ut när man anropar denna metod från en annan metod?
 
 // Anrop av add-metoden från en annan metod
-int sum = add(5, 3);
+```java
+int sum = add(5, 3); ````
 
 
 ## Fråga 9: Skapa en klass med tom konstruktor

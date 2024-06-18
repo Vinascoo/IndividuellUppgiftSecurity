@@ -84,8 +84,8 @@ String text = new String("Hello");
 
 
 ## Fråga 11: Namnkonvention i Java för metoder
+I Java brukar man börja metodnamn med ett verb, exempelvis "calculateSomething()" eller "getUserDetails()".
 
-I Java börjar metodnamn vanligtvis med ett verb, såsom calculateSomething() eller getUserDetails().
 
 <!-- Inkludera den färgade strukturen från colors.md -->
 <object data="colors.md" type="text/html" width="800px" height="600px" style="overflow:auto;border:1px solid #ccc"></object>

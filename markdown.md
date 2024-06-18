@@ -43,7 +43,8 @@ Typ eller klass: Metoden returnerar ett värde av den specificerade datatypen el
 
 ## Fråga 4: Vilken namnkonvention finns för metoder i Java?
 
-Metodnamn i Java börjar vanligtvis med ett verb i små bokstäver, följt av substantiv eller adjektiv. Exempelvis calculateTotal(), getUserDetails().
+Metodnamn i Java börjar vanligtvis med ett verb i små bokstäver, följt av substantiv eller adjektiv. Exempelvis
+``` java calculateTotal(), getUserDetails(). ````
 
 ## Fråga 5: Vad innebär det om det inte står något mellan paranteserna?
 

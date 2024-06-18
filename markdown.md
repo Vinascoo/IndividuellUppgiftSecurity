@@ -76,13 +76,13 @@ public class HakansClass {
 
 
 ## Fråga 10: Skillnaden på objekt och primitiva typer i Java
-
+```
 // Skapande av primitiv typ med ett värde
 int number = 10;
 
 // Skapande av ett objekt (instans av en klass)
 String text = new String("Hello");
-
+````
 
 ## Fråga 11: Namnkonvention i Java för metoder
 I Java brukar man börja metodnamn med ett verb, exempelvis "calculateSomething()" eller "getUserDetails()".

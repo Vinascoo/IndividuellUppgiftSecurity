@@ -20,8 +20,8 @@ Hur jag lagrar informationen:
 
 Jag använder en speciell typ av minne (InMemoryUserDetailsManager) för att spara användarkontot temporärt.
 
-## Fråga 1: Metod i webbapplikationen
-```
+# Fråga 1: Metod i webbapplikationen
+```java
  @PostMapping
     public String registerUser(@Valid @ModelAttribute("user") UserApp appUser, BindingResult bindingResult, Model model){
         // Kontrollerar om det finns valideringsfel i formuläret
@@ -53,14 +53,14 @@ Det innebär att metoden inte tar emot några parametrar eller argument när den
 
 Det som skickas med till metoden mellan paranteserna kallas antingen parametrar eller argument.
 
-## Fråga 7: Hur ska du skriva för att returnera summan av a och b i denna metod?
-```
+#Fråga 7: Hur ska du skriva för att returnera summan av a och b i denna metod?
+```java
 public int add(int a, int b){
     return a + b;
 }
 ````
 
-## Fråga 8: Hur ser det ut när man anropar denna metod från en annan metod?
+# Fråga 8: Hur ser det ut när man anropar denna metod från en annan metod?
 
 // Anrop av add-metoden från en annan metod
 int sum = add(5, 3);
